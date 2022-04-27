@@ -1,7 +1,9 @@
 <?php
     include_once "../../composer/vendor/autoload.php";
 
-    $md = new Parsedown();
+    const ANNOUNCEMENTS_GLOB = "../announcements/*.md";
+
+    $md = new Parsedown();    
 
     // we won't allow untrusted announcements, but just in case.
     // this isn't secure anyway without html purifier or something like that
@@ -11,8 +13,7 @@
     /* We may use doodles in future
 
     const DOODLE_COUNT = 3;
-
-    const ANNOUNCEMENTS_GLOB = "../announcements/*.md";
+    
     const DOODLES_GLOB = "./doodles/*.png";
 
     $all_doodles = glob(DOODLES_GLOB);
