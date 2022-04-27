@@ -1,0 +1,57 @@
+body {
+    color: #1f1f1f;
+    background-color: #eedec2;
+    font-family: 'Segoe UI', system-ui, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 21px;
+}
+
+h1 {
+    color: #000;
+    font-size: 51px;
+    font-weight: 900;
+}
+
+h2 {
+    color: #000;
+    font-size: 33px;
+    font-weight: 700;
+}
+
+a {
+    color: #000;
+    font-weight: normal;
+}
+
+a:hover {
+    color: #505b63
+}
+
+hr {
+    margin-top: 3%;
+    background-color: #000;
+    height: 1px;
+    border: 0;
+}
+
+footer {
+    padding-top: 3%;
+    font-size: 19px;
+    text-align: center
+}
+
+.container {
+    padding-top: 0.3%;
+    margin: auto;
+    max-width: 63rem;
+    z-index: 1;
+}
+
+.background>img {
+    z-index: -1312;
+    position: absolute;
+    transform: scale(0.25);
+
+    /* https://codepen.io/sosuke/pen/Pjoqqp, hex: #8ea1ad */
+    filter: invert(67%) sepia(17%) saturate(306%) hue-rotate(160deg) brightness(92%) contrast(84%);
+    opacity: 0.75;
+}
