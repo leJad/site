@@ -68,7 +68,7 @@
         <? endforeach ?>
 
         <footer>            
-            <a href="https://github.com/caypartisi/website">sitenin kaynak kodu</a>
+            <a href="https://github.com/cayzone/site">sitenin kaynak kodu</a>
             <!-- R29vZCBsdWNrLgoKRWwuClBzeS4KS29uZ3Jvby4= -->
         </footer>
     </div>    
