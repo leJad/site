@@ -1,11 +1,6 @@
 <?php
     include_once "../../composer/vendor/autoload.php";
 
-    const DOODLE_COUNT = 3;
-
-    const ANNOUNCEMENTS_GLOB = "../announcements/*.md";
-    const DOODLES_GLOB = "./doodles/*.png";
-
     $md = new Parsedown();
 
     // we won't allow untrusted announcements, but just in case.
@@ -13,9 +8,18 @@
     $md->setSafeMode(true); 
     $md->setMarkupEscaped(true);
     
+    /* We may use doodles in future
+
+    const DOODLE_COUNT = 3;
+
+    const ANNOUNCEMENTS_GLOB = "../announcements/*.md";
+    const DOODLES_GLOB = "./doodles/*.png";
+
     $all_doodles = glob(DOODLES_GLOB);
     $selected_doodles = array_rand($all_doodles, DOODLE_COUNT);
-    $selected_doodles = array_map(function($i) use ($all_doodles) { return $all_doodles[$i]; }, $selected_doodles);
+    $selected_doodles = array_map(function($i) use ($all_doodles) { return $all_doodles[$i]; }, $selected_doodles); 
+    
+    */
 ?>
 
 <!DOCTYPE html>
@@ -26,6 +30,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/acik-cay.css">    
     <link rel="icon" href="./logos/cayzone.png">
+    <!-- We may use doodles in future
     <script>
         const DOODLES = [
             <? foreach ($selected_doodles as $i => $doodle): ?>
@@ -33,7 +38,7 @@
             <? endforeach ?>
         ];
     </script>
-    <script src="./doodle.js" defer async></script>
+    <script src="./doodle.js" defer async></script> -->
 </head>
 <body>
     <div class="background"></div>
