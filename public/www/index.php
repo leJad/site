@@ -1,9 +1,9 @@
 <?php
-    include_once "../../www-deps/vendor/autoload.php";
+    include_once "../../composer/vendor/autoload.php";
 
     const DOODLE_COUNT = 3;
 
-    const ANNOUNCEMENTS_GLOB = "../../announcements/*.md";
+    const ANNOUNCEMENTS_GLOB = "../announcements/*.md";
     const DOODLES_GLOB = "./doodles/*.png";
 
     $md = new Parsedown();
