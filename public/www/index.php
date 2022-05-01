@@ -49,7 +49,7 @@
         <p>selam! görünüşe bakılırsa devasa internet okyanusundaki bu küçük sayfayı buldunuz.</p>
         <p><b>cay.zone</b>; mühendisliğin, sanatın, bilimin ve hayata dair önemli-önemsiz her konunun konuşulduğu bir sosyal ağdır. <i>çay partisi</i> ve <i>serpme kahvaltı</i> sunucularının devamı olarak 2022'de <a href="/~karahan">~karahan</a> tarafından yaratılmıştır.</p>
         <p>üye statüsüne erişmek için aktif bir üye tarafından davet edilmeniz ve reşit olmanız gerekmektedir.</p>
-        <p>buraya kadar gelmişken bir selam da siz vermeden gitmezsiniz herhalde! <a href="irc://cay.zone:6667">irc sunucumuzda</a> (üye değilseniz #umumi kanalında) sizi ağırlamak isteriz.</p>
+        <p>buraya kadar gelmişken bir selam da siz vermeden gitmezsiniz herhalde! <a href="irc://cay.zone:6697">irc sunucumuzda</a> (üye değilseniz #umumi kanalında) sizi ağırlamak isteriz.</p>
         <p>eğer tilde sunucusuyla veya yardımcı olabileceğimiz herhangi bir şeyle ilgili aklınıza takılan bir şey varsa <a href="./wiki">wiki</a> sayfamıza bakabilirsiniz. aradığınız cevabı bulamadıysanız <a href="/~admi">~admi</a> ya da <a href="/~karahan">~karahan</a>'a ulaşabilirsiniz.</p>
 
         <hr>
